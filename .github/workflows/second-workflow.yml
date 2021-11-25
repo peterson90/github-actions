@@ -38,4 +38,4 @@ jobs:
           pr_body: >
             This PR is auto-generated.
           pr_label: "auto-pr"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
