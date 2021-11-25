@@ -23,6 +23,7 @@ jobs:
 
 
   review:
+    needs: build
     if: |
       ${{ github.ref != 'refs/heads/main' }} &&
       github.event_name != 'pull_request'
